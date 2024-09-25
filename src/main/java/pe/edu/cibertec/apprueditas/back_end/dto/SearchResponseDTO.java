@@ -7,6 +7,6 @@ public record SearchResponseDTO(String codigo,
                                 String marca,
                                 String modelo,
                                 Integer nroAsientos,
-                                BigDecimal precio,
+                                Integer precio,
                                 String color) {
 }
